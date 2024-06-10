@@ -9,7 +9,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 }
 
 img{
-    max-width: 100%;
     display: block;
 }
 
@@ -61,18 +60,18 @@ header a:hover{
 
 .contenitoretitolohome h1{
     color: white;
-    font-size: 64px;
-    text-align: center;
+    font-size: clamp(2rem,5vw,30rem);
     font-family: "Kumbh Sans" ;
-    font-weight: 900;
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .contenitoretitolo h1{
     color: white;
-    font-size: 128px;
-    text-align: left;
+    font-size: clamp(5rem,10vw,30rem);
     font-family: "Kumbh Sans" ;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .contenitore{
@@ -146,7 +145,7 @@ header a:hover{
 
 .elenco-tatuatori{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px,  1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px,  1fr));
     gap: 32px;
     margin-bottom: 16px;
     width: 70%;
@@ -245,6 +244,7 @@ footer nav ul{
 footer a{
     color: black;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 footer a:hover{
@@ -253,15 +253,14 @@ footer a:hover{
 
 .introtattoo{
     background-image: url(../webesame/fotoprogettoweb/testatainkworld.png);
-    padding: 128px 24px;
+    padding: 96px 24px;
     background-size: cover;
     background-position: center;
-    width: 100%;
 }
 
 .introtattoo h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "kumbh sans";
     padding: 48px 16px;
@@ -328,14 +327,14 @@ div.ink-stili p{
 
 .introbob{
     background-image: url(../webesame/fotoprogettoweb/copbob.png);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introbob h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
@@ -343,7 +342,7 @@ div.ink-stili p{
 
 .elenco-photogallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px,  1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px,  1fr));
     gap: 32px;
     margin-bottom: 16px;
     width: 70%;
@@ -355,116 +354,117 @@ div.ink-stili p{
     object-fit: cover;
     object-position: center;
     border-radius: 50px 50px 50px 50px;
+    width: 100%;
 }
 
 .introgargiulo{
     background-image: url(../webesame/fotoprogettoweb/copfabio.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introgargiulo h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introtoy{
     background-image: url(../webesame/fotoprogettoweb/copamanda.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introtoy h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introbrocca{
     background-image: url(../webesame/fotoprogettoweb/copbrocca.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introbrocca h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introrossini{
     background-image: url(../webesame/fotoprogettoweb/copelisa.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introrossini h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .intromarchini{
     background-image: url(../webesame/fotoprogettoweb/copluigi.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .intromarchini h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introsnt{
     background-image: url(../webesame/fotoprogettoweb/copsimone.jpg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introsnt h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introchiesa{
     background-image: url(../webesame/fotoprogettoweb/copbrando.png);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introchiesa h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introgaldo{
     background-image: url(../webesame/fotoprogettoweb/copmarco.png);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: top;
 }
 
 .introgaldo h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
@@ -518,9 +518,10 @@ div.ink-stili p{
 
 .introstoria h1{
     color: white;
-    font-size: 128px;
-    text-align: center;
+    font-size: clamp(5rem,10vw,30rem);
     font-family: "Kumbh Sans";
+    max-width: 1200px;
+    margin: auto;
 }
 
 .info-inkbob div.ink-storia p{
@@ -550,14 +551,14 @@ div.ink-stili p{
 
 .introrealistico{
     background-image: url(../webesame/fotoprogettoweb/realistico.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introrealistico h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
@@ -578,91 +579,91 @@ div.ink-stili p{
 
 .introgiapponese{
     background-image: url(../webesame/fotoprogettoweb/giapponese.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introgiapponese h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introoldschool{
     background-image: url(../webesame/fotoprogettoweb/oldschool.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introoldschool h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .intronewschool{
     background-image: url(../webesame/fotoprogettoweb/newschool.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .intronewschool h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introfineline{
     background-image: url(../webesame/fotoprogettoweb/fineline.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introfineline h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introtribale{
     background-image: url(../webesame/fotoprogettoweb/tribale.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introtribale h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .introlettering{
     background-image: url(../webesame/fotoprogettoweb/lettering.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introlettering h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
 
 .intropastelgore{
     background-image: url(../webesame/fotoprogettoweb/pastelgore.jpg);
-    padding: 144px 24px;
+    padding: 146px 24px;
     background-size: cover;
     background-position: center;
 }
@@ -670,14 +671,14 @@ div.ink-stili p{
 
 .introdotwork{
     background-image: url(../webesame/fotoprogettoweb/dotwork.jpeg);
-    padding: 144px 24px;
+    padding: 160px 24px;
     background-size: cover;
     background-position: center;
 }
 
 .introdotwork h1{
     color: white;
-    font-size: 128px;
+    font-size: clamp(5rem,10vw,30rem);
     text-align: left;
     font-family: "Kumbh Sans";
 }
@@ -752,21 +753,34 @@ div.ink-stili p{
 }
 
 @media screen and (max-width:600px) {
+    
+    .contenitore h1{
+        font-size: 64px;
+    }
 
+    .contenitoretitolo h1{
+        font-size: 32px;
+    }
 
     .elenco-tatuatori{
         grid-template-columns: 1fr;
-        margin: auto;
-        width: 100%;
-        gap: 32px;
+        width: 90%;
+        
     }
-
 
     .contenitore{
         flex-direction: column;
+        width: 90%;
         gap: 32px;
         margin-left: 8px;
-        width: 90%;
+    }
+
+    .contenitore div.ink p{
+        font-size: 21px;
+    }
+
+    .contenitore div.info p{
+        font-size: 18px;
     }
 
     .raggruppare{
@@ -775,44 +789,43 @@ div.ink-stili p{
         gap: 8px;
     }
 
-    .introbob{
-        background-size: cover;
-        background-position: top;
-        background-position: 525px;
-    }
-
     .introbob h1{
         font-size: 64px;
     }
 
-    .info-inkbob.info {
-        width: 100%;
+    .introbob{
+        background-position: 550px;
     }
 
-    .introgargiulo{
-        background-size: cover;
-        background-position: top;
-        background-position: 600px;
+    .info-inkbob.info {
+        width: 90%;
     }
 
     .introgargiulo h1{
         font-size: 64px;
     }
 
-    .introbrocca{
-        background-size: cover;
-        background-position: top;
-        background-position: 500px;
+    .introgargiulo{
+        background-position: 600px;
     }
 
     .introbrocca h1{
         font-size: 64px;
     }
 
+    .introbrocca{
+        background-position: 550px;
+    }
 
-    .introchiesa{
-        background-size: cover;
-        background-position: top;
+    .introrossini{
+        background-position: 550px;
+    }
+
+    .intromarchini{
+        background-position: 550px;
+    }
+
+    .introsnt{
         background-position: 500px;
     }
 
@@ -820,9 +833,7 @@ div.ink-stili p{
         font-size: 64px;
     }
 
-    .introgaldo{
-        background-size: cover;
-        background-position: top;
+    .introchiesa{
         background-position: 500px;
     }
 
@@ -830,34 +841,16 @@ div.ink-stili p{
         font-size: 64px;
     }
 
-
-    .introtoy{
-        background-size: cover;
-        background-position: top;
-        background-position: 500px;
+    .introgaldo{
+        background-position: 550px;
     }
 
     .introtoy h1{
         font-size: 64px
     }
 
-
-    .introrossini{
-        background-size: cover;
-        background-position: top;
-        background-position: 500px;
-    }
-
-    .intromarchini{
-        background-size: cover;
-        background-position: top;
-        background-position: 500px;
-    }
-
-    .introsnt{
-        background-size: cover;
-        background-position: top;
-        background-position: 500px;
+    .introtoy{
+        background-position: 550px;
     }
 
     .contenitoretitolo h1{
@@ -869,23 +862,15 @@ div.ink-stili p{
     }
 
     .info-inktatuatori div.info{
-        width: 90%;
-    }
-
-    .info-inktatuatori div.ink-tattoo{
-        width: 90%;
-    }
-
-    .contenitore div.ink{
-        width: 90%;
+        width: 100%;
     }
 
     .contenitore div.info{
-        width: 90%;
+        width: 100%;
     }
 
-    .contenitore div.info p{
-        font-size: 24px;
+    footer a{
+        font-size: 0.8rem;
     }
  
 }
